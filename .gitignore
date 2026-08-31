@@ -119,6 +119,7 @@ fabric.properties
 .envrc
 
 ### dotenv ###
+.env
 .oneclick-setup.env
 
 ### Linux ###
@@ -270,4 +271,3 @@ creds.json
 # Nix services data
 /data
 .pre-commit-config.yaml
-config.bat
