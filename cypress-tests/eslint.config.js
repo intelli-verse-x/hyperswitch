@@ -4,10 +4,6 @@ import pluginCypress from "eslint-plugin-cypress/flat";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import globals from "globals";
 import tseslint from "typescript-eslint";
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   pluginJs.configs.recommended,
@@ -54,4 +50,3 @@ export default [
     },
   },
 ];
-
